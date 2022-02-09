@@ -1,11 +1,19 @@
 /**/
-
+.title {
+  text-align: center;
+}
 .navbar {
   overflow: hidden;
   position: fixed;
   bottom: 0;
   width: 100%;
-    background: white;
+  height: 46px;
+  background: white;
+}
+.navtext {
+  font-size: small;
+  border-top: solid 2px;
+  padding: 5px;
 }
 /*for the flex in the homepage*/
 .boxes {
@@ -30,7 +38,6 @@ width: 50%;
 
 .flex-container {
   display: flex;
-
 }
 
 .flex-container > div {
@@ -38,11 +45,42 @@ width: 50%;
     color: white;
   margin: 5px;
   padding: 10px;
-  
-}
+  }
 .flex-container > div > a {
 color: white;
 }
 .links {
+  float: left;
   
 }
+.cover {
+  float: right;
+  border: double;
+  
+}
+
+/*miscellaneous*/
+.notice {
+  border-style: double;
+  margin: 10px;
+  padding: 10px;
+  
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+
+
+.container > div {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(207,232,220);
+  border: 2px solid rgb(79,185,227);
+
+}
+
+

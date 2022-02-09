@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hundredyearssolitude.github.io/sitemap.xml

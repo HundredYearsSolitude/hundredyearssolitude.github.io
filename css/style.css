@@ -1,3 +1,5 @@
+/**/
+
 .navbar {
   overflow: hidden;
   position: fixed;
@@ -5,37 +7,42 @@
   width: 100%;
     background: white;
 }
+/*for the flex in the homepage*/
 .boxes {
-content:"";
-display:table;
-clear:both;
+float:left;
 }
+
 .char {
 float: right;
 height: 100%;
 width: 80%;
-padding: 0 10px;
+padding: 0px;
 }
-.blogs {
-        float: left;
-}
+
 .imgchar {
-height: 100%;
-width: 100%
+height: 90%;
+width: 50%;
 }
+
+
+/* these are the flext in home page*/
+
+
 .flex-container {
   display: flex;
 
 }
 
 .flex-container > div {
-  background-color: #3b0956;
+  background-color: #460469;
     color: white;
   margin: 5px;
   padding: 10px;
-  font-size: ;
+  
 }
 .flex-container > div > a {
 color: white;
 }
-
+.links {
+  
+}

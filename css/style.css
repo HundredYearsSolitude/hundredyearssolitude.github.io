@@ -8,7 +8,7 @@
   margin: 2em auto;
 }
 
-/**/
+/*navbar*/
 .title {
   text-align: center;
 }
@@ -19,6 +19,9 @@
   width: 100%;
   height: 46px;
   background: white;
+}
+.navbar > hr {
+  margin: 2em auto;
 }
 .navtext {
   font-size: small;

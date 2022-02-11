@@ -1,4 +1,14 @@
 /**/
+
+/*for wholes site*/
+
+.charbody {
+  width: 90%;
+  max-width: 900px;
+  margin: 2em auto;
+}
+
+/**/
 .title {
   text-align: center;
 }
@@ -16,20 +26,10 @@
   padding: 5px;
 }
 /*for the flex in the homepage*/
-.boxes {
-float:left;
-}
-
-.char {
-float: right;
-height: 100%;
-width: 80%;
-padding: 0px;
-}
 
 .imgchar {
-height: 90%;
-width: 50%;
+height: 100%;
+width: 100%;
 }
 
 
@@ -59,13 +59,13 @@ color: white;
   
 }
 
-/*miscellaneous*/
 .notice {
   border-style: double;
   margin: 10px;
   padding: 10px;
   
 }
+/*container for home page*/
 
 .container {
   display: grid;
@@ -84,3 +84,50 @@ color: white;
 }
 
 
+
+
+/*container for template of characters*/
+
+.charcon {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 10px;
+}
+
+.summary-box {
+  border-radius: 4px;
+background-color: rgb(242, 163, 200);
+border: 2px solid rgb(255, 41, 41);
+}
+.summary-box > h3 {
+  text-align: center;
+}
+.charcon > div {
+  border-radius: 4px;
+  padding: 2px;
+  padding-right: 5px;
+
+}
+.bodhead {
+  text-decoration-line: underline;
+  font-weight: bold;
+  font-size: larger;
+}
+
+/*container for template of characters homepage characters.html*/
+
+.boxes {
+  display: grid;
+  grid-template-columns: 3fr 8fr;
+  gap: 5px;
+}
+
+
+
+.boxes > div {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(207,232,220);
+  border: 2px solid rgb(79,185,227);
+
+}

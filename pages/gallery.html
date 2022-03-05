@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Wiki : One Hundred Years of Solitude</title>
+<link rel="stylesheet" href="../css/style.css" type="text/css">
+<style>
+body {
+background-color: black;}
+* {
+  box-sizing: border-box;
+  color: yellow;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.flex-item-left {
+
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  padding: 10px;
+  flex: 50%;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+
+
+</style>
+</head>
+
+<body>
+    <div class="topnav" style="border-bottom: 1px solid grey;padding-bottom: 9px;">
+        <a href="../index.html">Home</a> | 
+        <a href="../blog/blog.html"> All Blogs</a> | 
+      <a href="../characters.html">Characters</a> | 
+      <a href="resources.html">Resources</a>
+      
+    </div>
+
+
+    <div class="flex-container">
+        <div class="flex-item-left"><img src="../content/marquezicon.jpeg" alt="">Marquez
+</div>
+        <div class="flex-item-right"><img src="../content/Cien_años_de_soledad_(book_cover,_1967).jpg" alt="">First Edition Book Cover</div>
+        <div class="flex-item-right"><img src="../content/220px-Gabriel_Garcia_Marquez.jpg" alt="">Marquez</div>
+        <div class="flex-item-right"><img src="../content/amaranta_ursula.jpg" alt="">Amaranta Ursula</div>
+    </div>
+
+
+ <div class="flex-container">
+        <div class="flex-item-left"><img src="../characters/images/remediosmoscote.jpg" alt="">Renata Remedios</div>
+        <div class="flex-item-right"><img width="200px" src="../content/cover.jpeg" alt="">Cover of the English Edition</div>
+        <div class="flex-item-right"><img width="200px" src="../content/harpercollins-edition.jpg" alt="harpercollins-edition">The Harper Collins Edition</div>
+        <div class="flex-item-right"><img width="600px" src="resimg/jabuendia.jpg" alt="">Jose Arcadio Buendia</div>
+        <!--
+             <div class="flex-item-right"><img src="" alt=""></div>
+        -->
+</div>
+
+</body>
+</html>
+

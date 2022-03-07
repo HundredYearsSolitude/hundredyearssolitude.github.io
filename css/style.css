@@ -5,7 +5,6 @@
 .charbody {
   width: 90%;
   max-width: 900px;
-  
   margin: 2em auto;
 }
 /*for blog page*/
@@ -34,6 +33,21 @@
 #altnavtext {
   margin-right: 33.5%;
 }
+/*------alternative bottom nav without background-------*/
+.navbar-alt {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 35px;
+}
+.navtext-alt {
+  font-size: small;
+  border-top: solid 1px #fabb51;
+  margin-top: 4px;
+  padding: 3px;
+}
+
 /*for the flex in the homepage*/
 
 .imgchar {
@@ -92,7 +106,7 @@ width: 100%;
 
 }
 
-/*----------character page navigation top-----------*/
+/*----------page navigation top-----------*/
 
 .topnav {
   overflow: hidden;
@@ -184,3 +198,32 @@ border: 2px solid rgb(255, 41, 41);
   text-shadow: 2px 2px 5px crimson;
   font-style: italic;
 }
+
+/*-------flex normal four in howto page------------*/
+.rowrow {
+  display: flex;
+  margin: 10px 10px;
+  flex-wrap: wrap;
+  position: relative;
+  
+}
+.boxbox {
+  width: 1000px;
+margin: 10px;
+border: 3px double #fabb51;
+padding: 0px 10px;
+flex: 1;
+  max-width: 300px;
+  min-height: 150px;
+}
+.bigbox {
+  margin: 20px;
+}
+@media (max-width:800px){
+.boxbox{
+flex: 100%;
+max-width: 600px;
+}
+}
+
+.summary-image {text-align: center;}

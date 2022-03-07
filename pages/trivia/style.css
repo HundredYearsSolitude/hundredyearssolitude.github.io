@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    min-width: 200px;
+    background-color: #F0F0F0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .container1{
+    margin: 20px;
+  }
+  
+  .row1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card-01{
+    background: #03D29F;
+    position: relative;
+    flex: 1;
+    max-width: 300px;
+min-height: 150px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    color: white;
+    text-align: center; padding: 0px 10px;
+  }
+  
+  .card-02{
+    background: #50A7FF;
+    position: relative;
+    flex: 1;
+    min-height: 200px;
+    max-width: 460px;
+    color: white;
+    text-align: center; padding: 0px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-03{
+    background: #FF7675;
+    position: relative;
+    flex: 1;
+    max-width: 940px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width:800px){
+    .card-01{
+      flex: 100%;
+      max-width: 600px;
+    }
+  
+    .card-02{
+      flex: 100%;
+      max-width: 600px;
+    }
+  
+    .card-03{
+      flex: 100%;
+      max-width: 600px;
+    }
+  }
+        .topnav {
+            border-bottom: 1px solid grey;padding: 9px;
+            margin: 0% 25%;
+            text-align: center;
+        }
+        .topnav a {
+            text-align: center;
+            padding: 0px 2px;
+            
+          }
+          
+          .topnav a:hover {
+              text-shadow: 2px 2px 5px crimson;
+              font-style: italic;
+          }
+.flexhead {
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    font-weight: bold;
+}

@@ -33,6 +33,10 @@
 #altnavtext {
   margin-right: 33.5%;
 }
+/*------------icon and text in third column in homepage----------*/
+.align-image {display:flex;}
+.image-column > img {max-width: 19px;}
+/*---------------------------------------------------------------*/
 /*------alternative bottom nav without background-------*/
 .navbar-alt {
   overflow: hidden;

@@ -71,18 +71,16 @@ min-height: 150px;
       max-width: 600px;
     }
   }
-        .topnav {
-            border-bottom: 1px solid grey;padding: 9px;
-            margin: 0% 25%;
+.topnav {
             text-align: center;
+            padding: 7px 0px;
         }
-        .topnav a {
+.topnav a {
             text-align: center;
             padding: 0px 2px;
             
-          }
-          
-          .topnav a:hover {
+          }      
+.topnav a:hover {
               text-shadow: 2px 2px 5px crimson;
               font-style: italic;
           }

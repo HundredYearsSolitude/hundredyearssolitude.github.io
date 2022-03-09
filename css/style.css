@@ -33,10 +33,16 @@
 #altnavtext {
   margin-right: 33.5%;
 }
+
+
 /*------------icon and text in third column in homepage----------*/
 .align-image {display:flex;}
 .image-column > img {max-width: 19px;}
 /*---------------------------------------------------------------*/
+
+
+
+
 /*------alternative bottom nav without background-------*/
 .navbar-alt {
   overflow: hidden;
@@ -174,8 +180,6 @@ border: 2px solid rgb(255, 41, 41);
   gap: 5px;
 }
 
-
-
 .boxes > div {
   border-radius: 5px;
   padding: 10px;
@@ -203,13 +207,13 @@ border: 2px solid rgb(255, 41, 41);
   font-style: italic;
 }
 
-/*-------flex normal four in howto page------------*/
+/*-------flex normal four in how-to page------------*/
 .rowrow {
   display: flex;
   margin: 10px 10px;
   flex-wrap: wrap;
   position: relative;
-  
+  justify-content: center;
 }
 .boxbox {
   width: 1000px;
@@ -223,11 +227,21 @@ flex: 1;
 .bigbox {
   margin: 20px;
 }
+.bigboxbox{
+  position: relative;
+  flex: 1;
+  max-width: 940px;
+  
+  margin: 0px;
+  border: 2px solid #fabb51;
+  padding: 0px 10px;
+}
+
 @media (max-width:800px){
 .boxbox{
 flex: 100%;
 max-width: 600px;
 }
 }
-
+/*------------------------------------------------*/
 .summary-image {text-align: center;}
